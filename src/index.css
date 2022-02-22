@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+* {
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Raleway, "Trebuchet MS", Arial, sans-serif;
+  color: #000;
+}
+body{
+  height: 100vh;
+  width: 100%;  
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#quote-box{
+	max-width: 80vw;  
+  
+	margin: auto;
+  border: 3px solid #000;
+  border-radius: 5px;
+  box-shadow: 1.5px 1.5px 0 Fuchsia;
+  padding: 2% 5% 2% 5%;
+}
+#author{
+  float: right;
+ 
+}
+#new-quote, #tweet-me{
+	background-color: #000;
+	color: #fff;
+	border: 0px;
+	font-size: 1.2em;
+	font-weight: 900;
+	padding: 5px 15px 5px 15px;
+	margin-top: 5%;
+	margin-right: 1%;
+}
+#new-quote:hover, #tweet-me:hover{
+	opacity: 0.7;
+}
+#new-quote:active, #tweet-me:active{
+	position: relative;
+	top: 2px;
+}
